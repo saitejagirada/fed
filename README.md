@@ -12,7 +12,6 @@ A federated learning project that demonstrates **Non-IID data simulation**, **Ho
 ├── NonIID_Simulation.ipynb    # Notebook A: IID vs Non-IID comparison
 ├── Secure_Aggregation.ipynb   # Notebook B: HE encryption + blockchain logging
 ├── CNN.py                     # Custom model definitions (MNIST_CNN, HeartModel, DiabetesModel)
-├── data/                      # MNIST dataset (auto-downloaded by Fluke)
 └── README.md
 ```
 
@@ -66,3 +65,20 @@ Fluke is **not** a networking library — it does **not** send models over TCP/I
 
 The communication overhead measured (Server→Client and Client→Server times) reflects the **in-memory simulation time**, not actual network latency.
 
+---
+
+## Datasets
+
+The following datasets were used in this project (links provided for reference):
+
+- **MNIST** – Handwritten digit recognition  
+  [https://www.kaggle.com/datasets/hojjatk/mnist-dataset](https://www.kaggle.com/datasets/hojjatk/mnist-dataset)
+
+- **Diabetes Dataset** – Medical data for diabetes prediction  
+  [https://www.kaggle.com/datasets/mathchi/diabetes-data-set](https://www.kaggle.com/datasets/mathchi/diabetes-data-set)
+
+- **Heart Disease Dataset** – Cardiovascular data for heart disease prediction  
+  [https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset)
+
+> The MNIST dataset is automatically downloaded by Fluke; the diabetes and heart disease datasets were loaded manually via `CSVDataset` for extension experiments.
+----
