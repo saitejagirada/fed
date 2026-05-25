@@ -29,7 +29,7 @@ Compares federated learning performance under two data distribution strategies:
 
 
 
-**Result:** IID achieves ~97% accuracy; Non-IID achieves ~77% accuracy, demonstrating the challenge of heterogeneous data in FL.
+**Result:** IID achieves ~97% accuracy; Non-IID achieves ~95% accuracy, demonstrating the challenge of heterogeneous data in FL.
 
 ---
 
